@@ -21,7 +21,7 @@ return [
     'components'=>[
     	'user'=>[
     		'identityClass'=>'common\models\User',
-    		'enableAutoLogin'=>false,
+    		'enableAutoLogin'=>true,
     	   ],
 
         'response' => [

@@ -14,7 +14,7 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <h1><?= Html::encode($this->title) ?></h1>
     <p>
-       <?= Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'],['data-method' => 'post','class' => 'btn btn-success btn btn-lg']). ' ' .
+       <?= Html::span('<i class="glyphicon glyphicon-plus"></i>', ['create'],['data-method' => 'post','class' => 'btn btn-success btn btn-lg']). ' ' .
        Html::a('<i class="glyphicon glyphicon-refresh"></i>', ['index'], ['class' => 'btn btn-warning btn-lg']) ?>
    </p>
 

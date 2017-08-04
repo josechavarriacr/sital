@@ -32,7 +32,7 @@ $rowCount= count($result);
 $data[0] = array('Extensiones', 'Llamadas');    
 foreach($result as $res){$data[] = array($res['Troncal'],(int)$res['Total']);}
 $data = json_encode($data);
- // echo $data;
+  echo $data;
 echo $this->params['inicio'];
 echo '<br/>';
 echo $this->params['final'];
